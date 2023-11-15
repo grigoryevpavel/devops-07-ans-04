@@ -12,3 +12,7 @@
 
 **ansible-playbook -i inventory/prod.yml --private-key <key file name> site.yml**
 
+## Результат развертывания
+
+<img src='images/result.png'>
+

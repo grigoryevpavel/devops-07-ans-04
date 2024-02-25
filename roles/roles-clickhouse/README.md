@@ -1,9 +1,9 @@
 Role Name
 =========
 
-roles-clickhouse
+role_clickhouse
 
-Requirements
+Description
 ------------
 
 Installs clickhouse server and creates database logs if it did not exist. Contains server and client of clickhouse.
@@ -20,7 +20,7 @@ How to use role
  
   - hosts: servers
     roles:
-        - { role: roles-clickhouse }
+        - { role: role_clickhouse }
 
 How to install in subfolder **roles** of current project folder
 ---------------

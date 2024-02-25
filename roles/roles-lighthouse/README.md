@@ -1,7 +1,7 @@
 Role Name
 =========
 
-roles-lighthouse
+role_lighthouse
 
 Description
 ------------
@@ -20,7 +20,7 @@ Role Variables
 Role Dependencies
 --------------
 
-Role depends on role roles-nginx.
+Role depends on role role_nginx.
  
 How to install in subfolder **roles** of current project folder
 ---------------
@@ -32,7 +32,31 @@ How to use role
 
   - hosts: servers
     roles:
-        - { role: roles-lighthouse }
+        - { role: role_lighthouse }
+
+Description
+------------
+
+Role installs lighthouse. 
+
+Role Dependencies
+--------------
+
+Role depends on role role_nginx.
+ 
+How to install in subfolder **roles** of current project folder
+---------------
+1. Install role_nginx:
+    > ansible-galaxy role install --roles-path ./roles git+https://github.com/grigoryevpavel/roles-nginx.git
+2.  Install role role_lighthouse:
+    > ansible-galaxy role install --roles-path ./roles git+https://github.com/grigoryevpavel/roles-lighthouse.git
+
+How to use role
+----------------
+
+  - hosts: servers
+    roles:
+        - { role: role_lighthouse }
 
 License
 -------

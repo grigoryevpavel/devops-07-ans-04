@@ -1,5 +1,0 @@
----
-- hosts: nginx
-  remote_user: administrator
-  roles:
-    - role_nginx

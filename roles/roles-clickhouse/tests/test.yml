@@ -1,5 +1,0 @@
----
-- hosts: clickhouse
-  remote_user: administrator
-  roles:
-    - clickhouse-role

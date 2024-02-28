@@ -1,3 +1,0 @@
-clickhouse_packages:
-  - clickhouse-client
-  - clickhouse-server 

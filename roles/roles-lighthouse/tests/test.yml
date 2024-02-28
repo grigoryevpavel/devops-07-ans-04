@@ -1,5 +1,0 @@
----
-- hosts: lighthouse
-  remote_user: administrator
-  roles:
-    - role_lighthouse

@@ -2,7 +2,7 @@ clickhouse:
   hosts:
     clickhouse-01:
       ansible_host: 192.168.10.239
-      ansible_ssh_user: administrator
+      ansible_ssh_user: jenkins
 lighthouse:
   hosts:
     lighthouse-01:
